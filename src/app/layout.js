@@ -1,13 +1,16 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Rubik, Open_Sans } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/shared/header/Header";
+import Providers from "@/redux/Providers";
+import Footer from "@/components/shared/footer/Footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const rubik = Rubik({
+  variable: "--font-rubik",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const openSans = Open_Sans({
+  variable: "--font-open-sans",
   subsets: ["latin"],
 });
 
@@ -20,9 +23,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${rubik.variable} ${openSans.variable} antialiased`}
       >
-        {children}
+        <Providers>
+          <Header></Header>
+          {children}
+          <Footer></Footer>
+        </Providers>
       </body>
     </html>
   );

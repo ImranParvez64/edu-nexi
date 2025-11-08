@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "HTML & CSS — ভিত্তি থেকে প্র্যাকটিস",
+    "categories": [
+      "Web Development",
+      "Frontend",
+      "HTML/CSS"
+    ],
+    "iframe": "https://www.youtube.com/embed/2GqZBsRqaf0?si=YBWg1facM3aTLwuJ"
+  },
+  {
+    "id": 2,
+    "title": "JavaScript প্রোগ্রামিং — শুরু থেকে অ্যাডভান্স",
+    "categories": [
+      "Web Development",
+      "Programming",
+      "JavaScript"
+    ],
+    "iframe": "https://www.youtube.com/embed/iqiNOsO7Yp8?si=9vrE_mf2Aa6cSV87"
+  },
+  {
+    "id": 3,
+    "title": "React.js — বাস্তব প্রোজেক্ট দিয়ে শিখুন",
+    "categories": [
+      "Frontend",
+      "React",
+      "Projects"
+    ],
+    "iframe": "https://www.youtube.com/embed/_6cBwuHNKgI?si=93b4fyKY4TmIliue"
+  },
+  {
+    "id": 4,
+    "title": "Next.js Practical — SEO ও SSR সহ",
+    "categories": [
+      "Frontend",
+      "Next.js",
+      "Web Apps"
+    ],
+    "iframe": "https://www.youtube.com/embed/2GqZBsRqaf0?si=YBWg1facM3aTLwuJ"
+  },
+  {
+    "id": 5,
+    "title": "Node.js & Express — REST API তৈরি",
+    "categories": [
+      "Backend",
+      "Node.js",
+      "API"
+    ],
+    "iframe": "https://www.youtube.com/embed/-HmgT89TUx8?si=Mb7_LjbT9iaB6eai"
+  },
+  {
+    "id": 6,
+    "title": "Python for Data Science — পাণ্ডাস ও মেশিন লার্নিং প্রাথমিক",
+    "categories": [
+      "Data Science",
+      "Python",
+      "Machine Learning"
+    ],
+    "iframe": "https://www.youtube.com/embed/2GqZBsRqaf0?si=XjJNF2_qs7j4s0Iq"
+  },
+  {
+    "id": 7,
+    "title": "Database Essentials — MySQL ও PostgreSQL",
+    "categories": [
+      "Database",
+      "SQL",
+      "Backend"
+    ],
+    "iframe": "https://www.youtube.com/embed/AieDYWGMfw4?si=rK6DuSAY07LII0PJ"
+  },
+  {
+    "id": 8,
+    "title": "UI/UX Design — ডিজাইন চিন্তাধারা ও প্রোটোটাইপ",
+    "categories": [
+      "Design",
+      "UI/UX",
+      "Tools"
+    ],
+    "iframe": "https://www.youtube.com/embed/AieDYWGMfw4?si=rK6DuSAY07LII0PJ"
+  },
+  {
+    "id": 9,
+    "title": "DevOps প্রাথমিক — Docker ও CI/CD পরিচিতি",
+    "categories": [
+      "DevOps",
+      "Docker",
+      "CI/CD"
+    ],
+    "iframe": "https://www.youtube.com/embed/AieDYWGMfw4?si=rK6DuSAY07LII0PJ"
+  },
+  {
+    "id": 10,
+    "title": "Career Prep — ইন্টারভিউ, রেজুমি ও ফ্রিল্যান্সিং টিপস",
+    "categories": [
+      "Career",
+      "Interview",
+      "Freelance"
+    ],
+    "iframe": "https://www.youtube.com/embed/AieDYWGMfw4?si=rK6DuSAY07LII0PJ"
+  }
+]

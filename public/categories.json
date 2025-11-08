@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "name": "Web Development",
+    "icon": "FaLaptopCode",
+    "img": "https://api.bdcallingacademy.com/adminAsset/image/1216729552.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Graphic Design",
+    "icon": "FaPalette",
+    "img": "https://api.bdcallingacademy.com/adminAsset/image/1397549740.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Digital Marketing",
+    "icon": "FaBullhorn",
+    "img": "https://api.bdcallingacademy.com/adminAsset/image/277973940.jpg"
+  },
+  {
+    "id": 4,
+    "name": "UI/UX Design",
+    "icon": "FaObjectGroup",
+    "img": "https://api.bdcallingacademy.com/adminAsset/image/423172293.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Networking",
+    "icon": "FaNetworkWired",
+    "img": "https://api.bdcallingacademy.com/adminAsset/image/479975539.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Software Development",
+    "icon": "FaCode",
+    "img": "https://api.bdcallingacademy.com/adminAsset/image/728905311.png"
+  }
+]
+

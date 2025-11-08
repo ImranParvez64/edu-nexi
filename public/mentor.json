@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Sheikh Sakibul Hasan",
+    "category": "Web Development",
+    "designation": "Senior MERN Stack Developer",
+    "experience": "7+ Years of Experience",
+    "specialty": "Full Stack Development, RESTful APIs, MongoDB Optimization",
+    "bio": "Sakibul is a passionate full-stack developer and educator with over 7 years of experience building modern web applications using the MERN stack. He focuses on practical, project-based learning and clean code practices.",
+    "img": "https://i.ibb.co/TDDF1SJ2/Sakib.jpg",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/sheikhsakibulhasan",
+      "github": "https://github.com/sheikhsakibulhasan",
+      "website": "https://sakibdev.com"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Zayed Uddin",
+    "category": "UI/UX Design",
+    "designation": "UI/UX Designer & Frontend Mentor",
+    "experience": "5+ Years of Experience",
+    "specialty": "Design Systems, User Research, Prototyping",
+    "bio": "Sadia is a creative UI/UX designer specializing in human-centered design. She helps learners master Figma, wireframing, and visual design for web and mobile applications.",
+    "img": "https://i.ibb.co/JWzZ3975/Jahid-1.jpg",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/sadiarahman",
+      "dribbble": "https://dribbble.com/sadiarahman",
+      "behance": "https://behance.net/sadiarahman"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Topu Bhowmick",
+    "category": "Software Development",
+    "designation": "Backend Engineer & API Specialist",
+    "experience": "6+ Years of Experience",
+    "specialty": "Node.js, Express, Microservices, Authentication",
+    "bio": "Rafiul is a backend engineer with deep knowledge of scalable system design and secure API development. He focuses on writing efficient, maintainable backend code using Node.js and TypeScript.",
+    "img": "https://i.ibb.co.com/fYy19ky1/Topu-Digital-Marketing.jpg",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/rafiulhasan",
+      "github": "https://github.com/rafiulhasan",
+      "website": "https://rafiuldev.io"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Md. Abu Sayeed",
+    "category": "Graphic Design",
+    "designation": "Creative Designer & Visual Artist",
+    "experience": "4+ Years of Experience",
+    "specialty": "Brand Identity, Digital Illustration, Adobe Suite",
+    "bio": "Tahmid is a professional graphic designer who teaches logo design, branding, and visual storytelling using Photoshop and Illustrator. His classes focus on creativity and market demand.",
+    "img": "https://i.ibb.co/cXZpBYdF/Abu-Sayed.jpg",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/tahmidchowdhury",
+      "dribbble": "https://dribbble.com/tahmidch",
+      "instagram": "https://instagram.com/tahmid.designs"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Nengminza Bapon",
+    "category": "Networking",
+    "designation": "Network Engineer & Cybersecurity Specialist",
+    "experience": "5+ Years of Experience",
+    "specialty": "Network Security, Routing & Switching, CCNA Training",
+    "bio": "Nusrat is an experienced network engineer who helps students master the fundamentals of networking, security configurations, and real-world troubleshooting techniques.",
+    "img": "https://i.ibb.co/N6DNBVb1/Bapon.jpg",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/nusratjahansoftware",
+      "github": "https://github.com/nusratdev",
+      "website": "https://nusrat.dev"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Ashraf Hossain",
+    "category": "Digital Marketing",
+    "designation": "Freelancing Coach & Digital Marketing",
+    "experience": "8+ Years in Freelancing & Remote Work",
+    "specialty": "SEO, Social Media Marketing, Paid Campaigns",
+    "bio": "Imran has trained hundreds of freelancers in digital marketing, helping them master SEO, Facebook Ads, and client management for freelancing success.",
+    "img": "https://i.ibb.co/TqN31cN0/Ashraf.jpg",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/imranhossain",
+      "facebook": "https://facebook.com/imranhossain.dev",
+      "website": "https://imrancoach.com"
+    }
+  }
+]
