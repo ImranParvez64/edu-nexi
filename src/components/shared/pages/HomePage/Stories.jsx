@@ -1,7 +1,7 @@
 'use client'
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchSuccess } from '@/Redux/slice/storiesSlice';
+import { fetchSuccess } from '@/redux/slice/successSlice';
 import Title from '../../utilities/Title';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
