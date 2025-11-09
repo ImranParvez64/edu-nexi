@@ -1,10 +1,11 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 'use client'
 import { fetchCategories } from '@/redux/slice/categoriesSlice';
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import * as FaIcons from 'react-icons/fa'
 import { motion } from "motion/react"
-import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 
 const Categories = () => {
     const dispatch = useDispatch();
@@ -14,6 +15,10 @@ const Categories = () => {
         dispatch(fetchCategories());
     }, [dispatch]);
 
+    const router = useRouter();
+        const handleClick =(name)=>{
+            router.push(`/courses?category=${encodeURIComponent(name)}`)
+        }
     return (
         <div className='container mx-auto px-12 my-10'>
             <motion.div
@@ -25,15 +30,14 @@ const Categories = () => {
                 {items.map(item => {
                     const Icon = FaIcons[item.icon] || FaIcons.FaQuestionCircle;
                     return (
-                        <Link key={item.id} href={'/course'}>
-                            <motion.div
+                            <motion.div key={item.id}
+                            onClick={()=>handleClick(item.name)}
                                 whileHover={{ scale: 1.05 }}
                                 className='flex flex-col rounded-xl gap-4 cursor-pointer border p-6 h-40 text-center justify-center items-center shadow-sm hover:shadow-md transition'
                             >
                                 <Icon size={28} className="text-blue-500" />
                                 <span className="font-semibold line-clamp-2">{item.name}</span>
                             </motion.div>
-                        </Link>
                     )
                 })}
             </motion.div>

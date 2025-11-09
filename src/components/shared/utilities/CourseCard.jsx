@@ -1,4 +1,4 @@
-import { Button } from '@/components/ui/button';
+'use client'
 import Image from 'next/image';
 import React from 'react';
 import { FaStar } from 'react-icons/fa6';
