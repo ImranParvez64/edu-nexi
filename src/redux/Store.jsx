@@ -4,12 +4,15 @@ import coursesReducer from '@/redux/slice/coursesSlice'
 import successReducer from "./slice/successSlice";
 import mentorsReducer from "./slice/mentorSlice";
 import filterReducer from "./slice/filterSlice";
+import productsReducer from "./slice/productsSlice";
+
 export const store = configureStore({
   reducer: {
     categories:categoriesReducer,
     courses: coursesReducer,
     success:successReducer,
     mentors:mentorsReducer,
-    filter:filterReducer
+    filter:filterReducer,
+    products:productsReducer
   },
 })

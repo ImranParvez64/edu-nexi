@@ -23,6 +23,10 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'bdcalling-academy.netlify.app',
       },
+      {
+        protocol: 'https',
+        hostname: 'm.media-amazon.com',
+      },
     ]
   }
 };
