@@ -29,9 +29,11 @@ const Hero = () => {
                                     <FaBookOpen /> Browse Course
                                 </Button>
                             </Link>
-                            <Button variant={"outline"} className='w-full sm:w-auto flex items-center justify-center gap-2'>
-                                <FaBookOpen /> Join Free Seminar
-                            </Button>
+                            <Link href={'/seminer'}>
+                                <Button variant={"outline"} className='w-full sm:w-auto flex items-center justify-center gap-2'>
+                                    <FaBookOpen /> Join Free Seminar
+                                </Button>
+                            </Link>
                         </div>
                     </div>
 

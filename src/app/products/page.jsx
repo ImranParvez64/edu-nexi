@@ -4,6 +4,7 @@
 import OthersHero from '@/components/shared/utilities/OthersHero';
 import { fetchProducts } from '@/redux/slice/productsSlice';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
@@ -21,7 +22,7 @@ const page = () => {
     <div className="bg-secondary py-10">
       <div className="container mx-auto">
         <OthersHero
-          title={"Our eBooks Collection"}
+          title={"Our Products Collection"}
           subtitle={
             "Discover a World of Knowledge, Inspiration, and Growth Through Every Page You Read."
           }
@@ -75,7 +76,7 @@ const page = () => {
               </div>
 
               {/* === Bottom Button (Now) === */}
-              <div className="w-full p-2 border-t">
+              <Link href={`/products/${item.id}`} className="w-full p-2 border-t cursor-pointer">
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
@@ -83,7 +84,7 @@ const page = () => {
                 >
                   view details
                 </motion.button>
-              </div>
+              </Link>
             </motion.div>
           ))}
         </div>

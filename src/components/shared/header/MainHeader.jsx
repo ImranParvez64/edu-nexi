@@ -105,7 +105,7 @@ const MainHeader = () => {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 <FaBookOpenReader />
-                Browse Our E-book
+                Browse Our Products
               </Button>
             </Link>
           </div>

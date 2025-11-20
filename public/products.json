@@ -1,19 +1,6 @@
 [
   {
-    "id": 1,
-    "title": "The Ultimate React.js Handbook (E-book)",
-    "category": "Learning Resource",
-    "type": "E-book",
-    "description": "A beginner-to-advanced guide on React.js covering components, hooks, context API, and performance optimization. Perfect for developers learning modern frontend.",
-    "price": 800,
-    "offerPrice": 600,
-    "format": "PDF",
-    "pages": 120,
-    "rating": 4.9,
-    "downloads": 950,
-    "special": "Bestseller",
-    "img": "https://m.media-amazon.com/images/I/6132FVQ5ZQL._SY425_.jpg",
-    "link": "https://example.com/resources/react-handbook"
+
   },
   {
     "id": 2,
